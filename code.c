@@ -3,9 +3,10 @@
 int main()
 
 {
-        printf("wanghe");
+        
+	printf("12345");
 	return 0;
+
+
+
 }
-
-
-
