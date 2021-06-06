@@ -31,7 +31,7 @@ int main()
 
 ## 超链接啊
 就是一个超链接<br>
-[百度搜索](http://baidu.com"鸟鸟的悬停")
+[百度搜索](www.baidu.com)
 
 
 ## 插入图片
