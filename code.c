@@ -4,7 +4,7 @@ int main()
 
 {
         
-	printf("12345");
+	printf("123456666");
 	return 0;
 
 
