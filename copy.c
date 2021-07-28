@@ -9,7 +9,7 @@ void mycopy(const char *srcfile,const char *desfile, char *blocksize,char* pos)
 {
 	int sfd,dfd;
 	char buffer[8096];
-	int rsize     =0;
+	int rsize               =0;
 	bzero(buffer,sizeof(buffer));
 	if((sfd = open(srcfile,O_RDWR))>0 && (dfd = open(desfile,O_RDWR|O_CREAT,0664)) >0)
 	{

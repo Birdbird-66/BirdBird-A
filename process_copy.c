@@ -88,7 +88,7 @@ int main(int argc,char **argv)
 
 	//回收子进程
 	pid_t zpid;
-	while((zpid        = waitpid(-1,NULL,WNOHANG)) !=-1)
+	while((zpid                = waitpid(-1,NULL,WNOHANG)) !=-1)
 	{
 		if(zpid>0)printf("kill process success\n");
 		else
